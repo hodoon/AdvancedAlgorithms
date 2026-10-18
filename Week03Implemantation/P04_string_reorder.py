@@ -35,7 +35,7 @@ def string_reorder():
     result.sort()
 
     # 숫자가 하나라도 존재하는 경우 가장 뒤에 삽입
-    if value != 0:
+    if value >= 0:
         result.append(str(value))
 
     # 최종 결과 출력(리스트를 문자열로 변환하여 출력)
